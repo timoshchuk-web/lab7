@@ -1,0 +1,86 @@
+h1, label, button, input{
+    color: black;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+
+}
+
+h2{
+    font-size: 12pt;
+    color: black;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 30pt;
+    margin:0px;
+}
+
+
+.content{
+    width: 370px;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.main-article{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.main-form .form-control label, .main-form .form-control label select{
+    display: block;
+}
+
+.main-form .form-control{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main-form button{
+    width: 100%;
+    display: block;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.main-form button:hover{
+    cursor: pointer;
+}
+
+.button-container{
+    margin: 40px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container .main-form{
+    width: 250px;
+    position: relative;
+}
+
+.form-labels{
+    margin: 40px 0px;
+}
+
+.form-labels .form-control{
+    margin: 15px 0px;
+}
+
+.form-labels input{
+    width: 250px;
+    height: 20px;
+}
